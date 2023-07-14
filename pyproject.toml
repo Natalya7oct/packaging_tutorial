@@ -9,6 +9,11 @@ packages = [{include = "test_package"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 numpy = "^1.24.1"
+opencv-python = "^4.8.0.74"
+tensorflow = { version = "^2.11.0", python = ">=3.10,<3.12"}
+torch = {version = "^2.0.1", python = "^3.10"}
+
+
 
 [build-system]
 requires = ["poetry-core"]
